@@ -1,0 +1,439 @@
+.oswald-unique {
+    font-family: 'Oswald', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.3;
+}
+
+body p, span, a {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    padding-left: 4.5rem;  
+    padding-right: 4.5rem; 
+}
+
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 800;
+    font-size: 2.75rem;
+}
+
+
+
+.navbar-nav .nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.navbar-nav .nav-link {
+    color: white !important; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+
+.icon-img {
+    width: 50px; 
+    height: auto; 
+}
+
+.hero {
+    position: relative;
+    background: url('images/shaking\ hands-min.webp  ') no-repeat center center/cover;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 2.55rem;
+    margin-bottom: 01rem;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.hero .quote {
+    font-style: italic;
+    color: rgb(210, 210, 210);
+    font-size: 1rem;
+    padding: 0 20%;
+    z-index: 2;
+}
+
+.service-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services img {
+    width: 100px; 
+    height:100px;
+    object-fit: contain; 
+}
+
+
+.services h3 {
+    padding: 0 10px; 
+    margin: 1rem auto;
+     
+    text-align: center; 
+}
+.service-col p {
+    margin-bottom: 0;
+}
+
+
+.services .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.strategy img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.strategy h2 {
+    margin-bottom: 2rem;
+}
+.strategy-img2 {
+    text-align:right;
+}
+
+.contact-us {
+    position: relative;
+    background: url('images/businessmen-min.webp') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding-left: 2rem; 
+    z-index: 1;
+    object-fit: contain;
+}
+
+.contact-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgb(75, 74, 74), rgb(0, 0, 0));
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.contact-us h2 {
+    padding: 1% 0;
+}
+
+.contact-button {
+    background: #f7f7f7;
+    padding: 0.5rem 1.75rem;
+    font-size: 1rem;
+    color: white; 
+    border: 2px solid white;
+    background: transparent; 
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem; /
+}
+.container.text-left {
+    text-align: left;
+}
+
+.cta-button {
+    background: #f7f7f7;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    color: white; 
+    border: 2px solid white; 
+    background: transparent; 
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem; 
+}
+
+.cta-button:hover {
+    background: #353030; 
+}
+
+.plan-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+.createPlan h6 {
+    font-weight: 800;
+    color: rgba(138,107,82,255);
+    margin-top: 0.5rem; 
+    text-align: center; 
+}
+
+.createPlan h2 {
+    font-weight: 800;
+    color: black;
+    margin-top: 0.5rem; 
+    margin-bottom: 1rem; 
+   
+}
+.testimonial-card h2 {
+    padding: 2% 0;
+    text-align: left;
+}
+
+.quotation-mark {
+    opacity: 30%;
+    width: 50px;
+    height: 40px;
+    transform: rotate(180deg);
+}
+.testimonial-card {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.headshot {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+.para-text {
+    position: relative;
+    top: -25px;
+}
+.testimonial-title {
+    font-weight: 700;
+}
+
+
+.call-to-action {
+    position: relative;
+    background: url('images/climbing\ stairs-min.webp') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    margin-top: 5%;
+}
+
+.call-to-action::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: -1; 
+}
+
+
+.call-to-action h2 {
+    font-size: 2rem;
+}
+
+.call-to-action p {
+    color: rgb(194, 194, 194);
+    padding: 0 12%;
+    font-size: 20px;
+}
+
+
+.text-left {
+    text-align: left;
+}
+
+.footer {
+
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    
+  }
+  .footer a {
+    color: #ccc;
+  }
+  .footer a:hover {
+    color: #fff;
+  }
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding-left: 2.5rem;  
+        padding-right: 2.5rem; 
+    }
+    .navbar-brand {
+        font-size: 2rem ;
+    }
+    .hero {
+        height: 90vh;
+    }
+    .hero h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .hero .quote {
+        font-size: 15px;
+        padding: 0 7%;
+    }
+
+    .services img {
+        width: 80px; 
+        height:80px;
+        object-fit: contain; 
+    }
+    
+    
+    .services h3 {
+        padding: 0 10px; 
+        margin: 1rem auto;   
+        text-align: center; 
+        font-size: 1.754rem;
+        font-weight: bold;
+    }
+
+    .strategy .row {
+        text-align: center;
+    }
+    .strategy .order-1 {
+        order: 1 !important;
+    }
+    .strategy .order-2 {
+        order: 2 !important;
+    }
+    .strategy h2 {
+        font-size: 1.75rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+        padding: 0 5%;
+    }
+    .strategy p {
+        font-size: 0.9rem;
+        padding: 0 7%;
+    }
+    .strategy-img2 {
+        text-align: center;
+    }
+
+    .contact-us {
+        height: 550px; 
+        padding-left: 1rem; 
+        padding-right: 1rem; 
+        justify-content: center; 
+        text-align: center; 
+    }
+    .contact-us::before {
+        background: radial-gradient(circle, rgb(75, 74, 74), rgb(0, 0, 0));
+       opacity: 0.8;
+    }
+
+    .contact-us h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .contact-btn {
+        text-align: center;
+    }
+    .createPlan h2 {
+        font-size: 1.75rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .createPlan p {
+        font-size: 0.9rem;
+        text-align: center;
+        padding: 0 7%;
+    }
+    .testimonial-card h2 {
+        text-align: center;
+    }
+    .designation {
+        padding: 0 10%;
+    }
+    .service-col {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0 10%;
+    }
+    .container.text-left {
+        text-align: center;
+    }
+
+    .call-to-action  {
+        height: 500px;
+    }
+    .call-to-action h2 {
+        font-size: 2rem;
+    }
+    .call-to-action p {
+        font-size: 1rem;
+    }
+
+    
+    .cta-button {
+         
+        padding: 3% 5%; 
+        font-size: 1rem; 
+    }
+
+    .footer {
+        padding: 20% 0;
+    }
+}
